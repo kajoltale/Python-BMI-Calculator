@@ -1,0 +1,15 @@
+Install pytest using following commands
+- pip install pytest
+- pip install pytest-cov
+- pip install pytest-xdist
+- pip install pytest-bdd
+
+
+BMI Calculator Project:
+1. Input is stored in JSON file.
+2. On running the project it opens the input json file calculates the BMI, BMI Category and Helath Risk.
+3. And then it update the json file by adding  this 3 new columns.
+4. Project also print the number of overweighted people. By adding counter can aslo count number of people in other criterias.
+5. It has test whcih check the number of overweighted people are correct or not depending on the input.
+
+To run test: python -m pytest
